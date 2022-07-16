@@ -2,6 +2,7 @@ import About from "./About";
 import Toolbar from "./Toolbar";
 import Projects from "./Projects";
 import "./App.css";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Toolbar />
         <About />
         <Projects />
+        <Contact />
       </header>
     </div>
   );

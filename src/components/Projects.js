@@ -3,8 +3,8 @@ import ProjectList from "./ProjectList";
 
 function Projects() {
   return (
-    <div>
-      <h2>My Recent Project</h2>
+    <div id="project">
+      <h2>My Recent Projects</h2>
       <p>
         Here are some of my recent work. All code can be found on my{" "}
         <a

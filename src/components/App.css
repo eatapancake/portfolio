@@ -10,7 +10,8 @@
 }
 
 .App-header {
-  background-color: #f0ece5;
+  /* background-color: #f0ece5; */
+  background-color: white;
 
   min-height: 100vh;
   display: flex;
@@ -25,10 +26,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .profile {
   border-radius: 50%;
+  margin-top: 80px;
 }
 .link-dark {
   color: rgb(196, 97, 16);
@@ -36,4 +38,12 @@
 .link-dark:hover {
   font-size: 1em;
   color: rgb(255, 196, 0);
+}
+
+h2 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: rgb(194, 116, 0);
+  color: black;
+  /* font-size: 1.5em; */
 }

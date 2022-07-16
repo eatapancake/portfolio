@@ -6,8 +6,8 @@ function Toolbar() {
     <div className="menu-container">
       <span className="link-container">
         <a href="#about">About</a>
-        <a href="#about">Projects</a>
-        <a href="#about">Contact</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
       </span>
     </div>
   );
