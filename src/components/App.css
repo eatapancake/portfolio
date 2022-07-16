@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #f0ece5;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: calc(28px);
+  color: rgb(145, 70, 20);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.profile {
+  border-radius: 50%;
+}
+.link-dark {
+  color: rgb(196, 97, 16);
+}
+.link-dark:hover {
+  font-size: 1em;
+  color: rgb(255, 196, 0);
+}

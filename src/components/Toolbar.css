@@ -1,0 +1,22 @@
+.menu-container {
+  background-color: rgb(83, 50, 19);
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  padding-top: 15px;
+  z-index: 10000;
+}
+a {
+  color: rgb(255, 247, 240);
+  text-decoration: none;
+  width: 150px;
+}
+a:hover {
+  font-size: 1.02em;
+  color: rgb(247, 217, 83);
+  transition: 200ms;
+}
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
