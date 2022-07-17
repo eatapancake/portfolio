@@ -33,6 +33,7 @@
   margin-top: 80px;
 }
 .link-dark {
+  font-size: 1em;
   color: rgb(196, 97, 16);
 }
 .link-dark:hover {
@@ -46,4 +47,7 @@ h2 {
   color: rgb(194, 116, 0);
   color: black;
   /* font-size: 1.5em; */
+}
+p {
+  font-size: 0.8em;
 }

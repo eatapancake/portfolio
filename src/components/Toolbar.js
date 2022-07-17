@@ -5,9 +5,15 @@ function Toolbar() {
   return (
     <div className="menu-container">
       <span className="link-container">
-        <a href="#about">About</a>
-        <a href="#project">Projects</a>
-        <a href="#contact">Contact</a>
+        <a className="menu-link" href="#about">
+          About
+        </a>
+        <a className="menu-link" href="#project">
+          Projects
+        </a>
+        <a className="menu-link" href="#contact">
+          Contact
+        </a>
       </span>
     </div>
   );

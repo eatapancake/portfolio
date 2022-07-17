@@ -1,0 +1,26 @@
+#contact {
+  /* background-color: aqua; */
+  width: 100vw;
+  /* height: 500px; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.icon-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-icon {
+  background-color: rgb(112, 68, 39);
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin: 5px 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-link {
+  color: white;
+}

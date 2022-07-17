@@ -1,18 +1,19 @@
 .menu-container {
   background-color: rgb(83, 50, 19);
+
   width: 100%;
   position: fixed;
   height: 35px;
   padding-top: 10px;
   z-index: 10000;
 }
-a {
+.menu-link {
   color: rgb(255, 247, 240);
   text-decoration: none;
   width: 150px;
   font-size: 0.75em;
 }
-a:hover {
+.menu-link:hover {
   font-size: 0.8em;
   color: rgb(247, 217, 83);
   transition: 200ms;
