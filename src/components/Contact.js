@@ -6,6 +6,7 @@ import {
   faFreeCodeCamp,
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import "./Contact.css";
 
 function Contact() {
@@ -14,6 +15,8 @@ function Contact() {
       <a
         className="icon-link"
         href="https://www.linkedin.com/in/janet-santoyo-6789381a7/"
+        target="_blank"
+        rel="noreferrer"
       >
         <FontAwesomeIcon icon={faLinkedinIn} />
       </a>
@@ -23,7 +26,9 @@ function Contact() {
     <div className="circle-icon">
       <a
         className="icon-link"
-        href="https://www.linkedin.com/in/janet-santoyo-6789381a7/"
+        href="https://github.com/eatapancake"
+        target="_blank"
+        rel="noreferrer"
       >
         <FontAwesomeIcon icon={faGithub} />{" "}
       </a>
@@ -33,7 +38,9 @@ function Contact() {
     <div className="circle-icon">
       <a
         className="icon-link"
-        href="https://www.linkedin.com/in/janet-santoyo-6789381a7/"
+        href="https://www.freecodecamp.org/eatapancake"
+        target="_blank"
+        rel="noreferrer"
       >
         <FontAwesomeIcon icon={faFreeCodeCamp} />{" "}
       </a>
@@ -43,18 +50,30 @@ function Contact() {
     <div className="circle-icon">
       <a
         className="icon-link"
-        href="https://www.linkedin.com/in/janet-santoyo-6789381a7/"
+        href="https://codepen.io/Eatapancake"
+        target="_blank"
+        rel="noreferrer"
       >
         <FontAwesomeIcon icon={faCodepen} />{" "}
       </a>
     </div>
   );
+  const mail = (
+    <div className="circle-icon">
+      <a className="icon-link" href="mailto: santoyojanet27@gmail.com">
+        <FontAwesomeIcon icon={faEnvelope} />{" "}
+      </a>
+    </div>
+  );
   return (
     <div id="contact">
-      <h2>Contact</h2>
-      <p>Best way to reach me is through email.</p>
+      <h2>Let's Connect!</h2>
+      <p className="contact-text">Best way to reach me is through email.</p>
+      <p>
+        <em>SantoyoJanet27@gmail.com</em>
+      </p>
       <span className="icon-span">
-        {github} {linkedIn} {ffc} {codePen}
+        {mail} {github} {linkedIn} {ffc} {codePen}
       </span>
     </div>
   );

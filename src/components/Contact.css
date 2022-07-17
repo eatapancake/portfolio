@@ -3,7 +3,10 @@
   width: 100vw;
   /* height: 500px; */
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 120px;
+}
+.contact-text {
+  margin-bottom: 30px;
 }
 .icon-span {
   display: flex;
@@ -15,12 +18,23 @@
   width: 35px;
   height: 35px;
   padding: 5px;
-  margin: 5px 10px;
+  margin: 50px 10px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.circle-icon:hover {
+  background-color: rgb(204, 157, 3);
+  transition: background-color 200ms;
+  overflow: hidden;
+  padding: 10px;
+  margin: 45px 5px;
+  font-size: 1.2em;
+}
 .icon-link {
   color: white;
+}
+.icon-link:hover {
+  transition: font-size 200ms;
 }
