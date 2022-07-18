@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedinIn,
+  faLinkedin,
   faGithub,
   faFreeCodeCamp,
   faCodepen,
@@ -18,7 +18,7 @@ function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faLinkedinIn} />
+        <FontAwesomeIcon icon={faLinkedin} />
       </a>
     </div>
   );
@@ -42,7 +42,7 @@ function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faFreeCodeCamp} />{" "}
+        <FontAwesomeIcon icon={faFreeCodeCamp} />
       </a>
     </div>
   );

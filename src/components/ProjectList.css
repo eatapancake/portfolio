@@ -1,6 +1,6 @@
 #project {
   background-color: rgb(90, 37, 21);
-  width: 100vw;
+  width: 100%;
   height: 1000px;
   display: flex;
   align-items: center;
@@ -47,6 +47,7 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(87, 56, 32, 0.7);
+
   color: white;
   border-radius: 10px;
   opacity: 0;
@@ -56,6 +57,30 @@
   opacity: 1;
   cursor: pointer;
 }
+.img-overlay > * {
+  transform: translateY(-20px);
+  transition: transform 0.25s;
+}
+.img-overlay:hover > * {
+  transform: translateY(0);
+}
 .project-text {
   margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1350px) {
+  .project-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #project {
+    height: 1332px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .project-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #project {
+    height: 2326px;
+  }
 }

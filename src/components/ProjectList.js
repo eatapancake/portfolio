@@ -38,7 +38,7 @@ const projectArr = [
   {
     title: "React Markdown Previewer",
     image: ReactMarkdown,
-    linke: "https://eatapancake.github.io/react-markdown-previewer/",
+    link: "https://eatapancake.github.io/react-markdown-previewer/",
   },
   {
     title: "Teddy Bear Cafe",

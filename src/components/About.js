@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../images/Chibi.png";
+import resume from "../images/JanetSantoyoResume.pdf";
 import "./About.css";
 
 function About() {
@@ -15,24 +16,24 @@ function About() {
         After graduating, I continued to improve my web developing skills, and
         have a better understanding of web design as well.
       </p>
+      <div className="resume">
+        <a
+          className="resume-link"
+          target="_blank"
+          href={resume}
+          rel="noreferrer"
+        >
+          Resume
+        </a>
+      </div>
       <div className="skills-container">
-        <div>
+        <div className="skills-item">
           <h3>Programing Languages</h3>
-          <ul>
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>C#</li>
-          </ul>
+          <p className="skills-p">JavaScript, HTML/CSS, C#</p>
         </div>
-        <div>
+        <div className="skills-item">
           <h3>Dev Tools</h3>
-          <ul>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>CodePen</li>
-            <li>Github</li>
-          </ul>
+          <p className="skills-p">React.js, Bootstrap, Cloud FireStore</p>
         </div>
       </div>
     </div>

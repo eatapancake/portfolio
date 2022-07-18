@@ -11,6 +11,7 @@
   color: rgb(255, 247, 240);
   text-decoration: none;
   width: 150px;
+  max-width: 100%;
   font-size: 0.75em;
 }
 .menu-link:hover {
