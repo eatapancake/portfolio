@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.94826020.css",
-    "main.js": "/portfolio/static/js/main.4c8b326c.js",
+    "main.css": "/portfolio/static/css/main.460407d8.css",
+    "main.js": "/portfolio/static/js/main.4b6a55ef.js",
     "static/media/Chibi.png": "/portfolio/static/media/Chibi.703f69aa1a61417b389e.png",
     "static/media/ReactMarkdown.png": "/portfolio/static/media/ReactMarkdown.baca949e6c7e9dd0f73f.png",
     "static/media/TeddyBearCafe.png": "/portfolio/static/media/TeddyBearCafe.5d9bbe83d93daecb458e.png",
+    "static/media/JanetSantoyoResume.pdf": "/portfolio/static/media/JanetSantoyoResume.d5e0d2f412a6a88ccb88.pdf",
     "static/media/ContactManager.png": "/portfolio/static/media/ContactManager.024f9ec901a083f87f50.png",
     "static/media/25-5-Clock.png": "/portfolio/static/media/25-5-Clock.d3cbe7ada929efe14cda.png",
     "static/media/RandonQuote.png": "/portfolio/static/media/RandonQuote.ee6009be1c0cf2282a3d.png",
     "static/media/ReactCalculator.png": "/portfolio/static/media/ReactCalculator.ee9865ed2c4591050871.png",
     "static/media/DrumMachine.png": "/portfolio/static/media/DrumMachine.e1af26fe747a21375d33.png",
     "index.html": "/portfolio/index.html",
-    "main.94826020.css.map": "/portfolio/static/css/main.94826020.css.map",
-    "main.4c8b326c.js.map": "/portfolio/static/js/main.4c8b326c.js.map"
+    "main.460407d8.css.map": "/portfolio/static/css/main.460407d8.css.map",
+    "main.4b6a55ef.js.map": "/portfolio/static/js/main.4b6a55ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.94826020.css",
-    "static/js/main.4c8b326c.js"
+    "static/css/main.460407d8.css",
+    "static/js/main.4b6a55ef.js"
   ]
 }
