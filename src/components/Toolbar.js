@@ -1,5 +1,6 @@
 import React from "react";
 import "./Toolbar.css";
+import resume from "../images/JanetSantoyoResume.pdf";
 
 function Toolbar() {
   return (
@@ -13,6 +14,9 @@ function Toolbar() {
         </a>
         <a className="menu-link" href="#contact">
           Contact
+        </a>
+        <a className="menu-link" target="_blank" href={resume} rel="noreferrer">
+          Resume
         </a>
       </span>
     </div>

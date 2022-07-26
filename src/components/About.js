@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../images/Chibi.png";
 import resume from "../images/JanetSantoyoResume.pdf";
 import "./About.css";
+import Icons from "./Icons";
 
 function About() {
   return (
@@ -13,9 +14,10 @@ function About() {
       <p className="intro">
         I graduated from Columbia College in Chicago with a BA in Game Art and a
         minor in Programming where I discovered my passion for web development.
-        After graduating, I continued to improve my web developing skills, and
-        have a better understanding of web design as well.
+        After graduating, I continued to improve my web developing skills.
       </p>
+      <span></span>
+      <Icons />
       <div className="resume">
         <a
           className="resume-link"
